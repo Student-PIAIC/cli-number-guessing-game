@@ -4,6 +4,7 @@ import inquirer from "inquirer";
 //user input for guessing number
 //match both numbers and show result gussed number is right or wrong
 const randomNumber = Math.floor(Math.random()*6+1);
+console.log("well come to number guessing game");
 
 const answer = await inquirer.prompt([
     {
